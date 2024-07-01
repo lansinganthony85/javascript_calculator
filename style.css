@@ -21,15 +21,26 @@
     margin: auto;
     height: 95%;
     width: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: bold;
 }
 
 .row {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly; 
-    height: 16%;  
+    height: 13.5%;  
     width: 100%; 
     margin: auto;
+}
+
+.del {
+    justify-content: right;
+    margin-left: auto;
+    height: 7%;
 }
 
 .output {
@@ -62,78 +73,11 @@
     background-color: rgb(0, 174, 255);
 }
 
-#clear::before {
-    content: "AC";
+#decimal {
+    background-color: rgb(105, 196, 1);
 }
 
-#signed::before {
-    content: "+/-"
-}
-
-#mod::before {
-    content: "%";
-}
-
-#divide::before {
-    content:"/";
-}
-
-#one::before {
-    content:"1";
-}
-
-#two::before {
-    content:"2";
-}
-
-#three::before {
-    content:"3";
-}
-
-#four::before {
-    content:"4";
-}
-
-#five::before {
-    content:"5";
-}
-
-#six::before {
-    content:"6";
-}
-
-#seven::before {
-    content:"7";
-}
-
-#eight::before {
-    content:"8";
-}
-
-#nine::before {
-    content:"9";
-}
-
-#multiply::before {
-    content:"*";
-}
-
-#subtract::before {
-    content:"-";
-}
-
-#add::before {
-    content:"+";
-}
-
-#equals::before {
-    content:"=";
-}
-
-#zero::before {
-    content:"0";
-}
-
-#decimal::before {
-    content: ".";
+#backspace {
+    background-color: brown;
+    font-size: 1.5rem;
 }
